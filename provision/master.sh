@@ -65,7 +65,7 @@ EOF
     logger     => 'console',
     datadir    => '/etc/puppetlabs/code/environments/%{environment}/hieradata'
   }
-  EOF
+EOF
 
 # Now, apply your new configuration
 /opt/puppetlabs/puppet/bin/puppet apply /var/tmp/configure_r10k.pp
